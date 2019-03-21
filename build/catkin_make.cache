@@ -1,0 +1,2 @@
+
+-DCATKIN_DEVEL_PREFIX=/home/thijs/Turbine-inspector/devel -DCMAKE_INSTALL_PREFIX=/home/thijs/Turbine-inspector/install -G Unix Makefiles
