@@ -7,7 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/thijs/Turbine-inspector/devel:$CMAKE_PREFIX_PATH"
-export PWD="/home/thijs/Turbine-inspector/build"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/thijs/Turbine-inspector/devel/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/thijs/Turbine-inspector/src:$ROS_PACKAGE_PATH"
+export PKG_CONFIG_PATH="/home/joep/Turbine-inspector/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
+export PWD="/home/joep/Turbine-inspector/build"
+export PYTHONPATH="/home/joep/Turbine-inspector/devel/lib/python2.7/dist-packages:$PYTHONPATH"
+export ROS_PACKAGE_PATH="/home/joep/Turbine-inspector/src:/home/joep/catkin_ws/src:/opt/ros/kinetic/share"

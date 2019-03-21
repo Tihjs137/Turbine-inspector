@@ -1,2 +1,2 @@
-
--DCATKIN_DEVEL_PREFIX=/home/thijs/Turbine-inspector/devel -DCMAKE_INSTALL_PREFIX=/home/thijs/Turbine-inspector/install -G Unix Makefiles
+ardrone_autonomy:ardrone_simulator_gazebo7/cvg_sim_gazebo:ardrone_simulator_gazebo7/cvg_sim_gazebo_plugins:ardrone_simulator_gazebo7/cvg_sim_msgs:ardrone_simulator_gazebo7/message_to_tf:ardrone_simulator_gazebo7/tum_simulator:gazebo_ros_pkgs/gazebo_dev:gazebo_ros_pkgs/gazebo_msgs:gazebo_ros_pkgs/gazebo_plugins:gazebo_ros_pkgs/gazebo_ros:gazebo_ros_pkgs/gazebo_ros_control:gazebo_ros_pkgs/gazebo_ros_pkgs
+-DCATKIN_DEVEL_PREFIX=/home/joep/Turbine-inspector/devel -DCMAKE_INSTALL_PREFIX=/home/joep/Turbine-inspector/install -G Unix Makefiles
