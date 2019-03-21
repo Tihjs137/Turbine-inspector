@@ -1,3 +1,9 @@
 [submodule "src/ardrone_autonomy"]
 	path = src/ardrone_autonomy
 	url = https://github.com/AutonomyLab/ardrone_autonomy.git
+[submodule "src/ardrone_simulator_gazebo7"]
+	path = src/ardrone_simulator_gazebo7
+	url = https://github.com/iolyp/ardrone_simulator_gazebo7
+[submodule "src/gazebo_ros_pkgs"]
+	path = src/gazebo_ros_pkgs
+	url = https://github.com/ros-simulation/gazebo_ros_pkgs.git
