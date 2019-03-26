@@ -29,17 +29,17 @@
 
 ardrone_autonomy package: This is the official driver for the real Ardrone flying robots. 
 
-    ```
+
     cd ~/catkin_ws/src
     git clone https://github.com/AutonomyLab/ardrone_autonomy.git -b indigo-devel
     cd ~/catkin_ws
     rosdep install --from-paths src -i
     catkin_make
-    ```
+
 
 joy_node and ardrone_joystick packages 
 
-    ```
+
     # cd into ros root dir
     roscd
 
@@ -52,7 +52,7 @@ joy_node and ardrone_joystick packages
     # build package
     rosmake ardrone_joystick
     rosmake joy
-    ```
+
 
 6. Install tum_simulator package:
 
