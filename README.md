@@ -6,16 +6,11 @@
     ```
     sudo apt-get install ros-kinetic-ardrone-autonomy
     ```
-2. Create a workspace for the simulator
 
-    ```
-    mkdir -p ~/ardrone_simulator/src
-    cd  ~/ardrone_simulator/src
-    catkin_init_workspace
-    ```
 3. Download package
 
     ```
+    cd ~/Turbine-inspector/src
     git clone https://github.com/iolyp/ardrone_simulator_gazebo7
     ```
 4. Build the simulator
@@ -30,9 +25,9 @@
     ardrone_autonomy package: This is the official driver for the real Ardrone flying robots. 
 
     ```
-    cd ~/catkin_ws/src
+    cd ~/Turbine-inspector/src
     git clone https://github.com/AutonomyLab/ardrone_autonomy.git -b indigo-devel
-    cd ~/catkin_ws
+    cd ~/Turbine-inspector
     rosdep install --from-paths src -i
     catkin_make
     ```
@@ -74,7 +69,7 @@
 7. Install teleop_twist_keyboard
 
     ```
-    sudo apt-get install ros-melodic-teleop-twist-keyboard
+    sudo apt-get install ros-kinetic-teleop-twist-keyboard
     ```
 
 ## How to run a simulation:
