@@ -1,6 +1,6 @@
-## Turbine-inspector
+# Turbine-inspector
 
-# How to install the simulation
+## How to install the simulation
 
 1. Install ros-kinetic-ardrone-autonomy
     ```
@@ -77,7 +77,7 @@
     sudo apt-get install ros-melodic-teleop-twist-keyboard
     ```
 
-#How to run a simulation:
+## How to run a simulation:
 
 1. Run a simulation by executing a launch file in cvg_sim_gazebo package:
 
